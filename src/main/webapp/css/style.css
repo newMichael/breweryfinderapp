@@ -1,0 +1,321 @@
+html, body {
+	background-color: #233237;
+	color: white;
+	padding-bottom: 70px;
+}
+
+input {
+	color: black;
+}
+
+footer p {
+	margin-bottom: 0px;
+}
+
+textarea {
+	color: black;
+	vertical-align: top;
+}
+
+.form-container {
+	font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+.header-content-inner img {
+	max-width: 100%;
+}
+
+
+#top-margin {
+	margin-top: 80px;
+}
+
+.copyright {
+	text-align: center;
+	background-color: rgba(240,95,64,0.3);
+}
+
+
+.details-header {
+	color: #F05F40;
+}
+
+.brewery-details-container {
+	background-color: rgba(220,220,220,0.2);
+	border-radius: 10px;
+	margin: 10px;
+}
+
+.brewery-details-box {
+	padding: 15px;
+	margin-bottom: 30px;
+}
+
+.brewery-details-image img{
+	max-width: 85%;
+	padding: 3.5%;
+	border-radius: 10px;
+	margin-top: 30px;
+}
+
+.cpanelImageForm {
+	margin-left: 20px;
+}
+
+.breweries-ptag {
+	color: #EAC67A;
+	margin-bottom: 0px;
+}
+
+.beer-list-ptag {
+	margin: 0px;
+}
+
+.remove-bootstrap-padding {
+	padding: 0;
+}
+
+.rating-box {
+/* 	max-width: 100%;
+ */}
+
+.rating-box img {
+	max-width: 8%;
+<<<<<<< HEAD
+	margin-bottom: 15%;
+	padding-bottom: 50px;
+=======
+	margin-bottom: 10px;
+>>>>>>> 682b742740e7213402386100b74c561928feebbf
+}
+
+.rating-box-beer-page img {
+	max-width: 8%;	
+}
+
+.beer-detail-box {
+	margin-bottom: 20px;
+}
+
+select, option {
+	color: black;
+}
+
+.beer-list-images img{
+	max-width: 60%;
+	max-height: 150.53px;
+	border-radius: 10px;
+}
+
+.beer-list-details-container {
+	padding: 0;
+	margin-bottom: 23px;
+}
+
+.beer-list-boxes {
+	padding: 0;
+}
+
+.beer-list-ptag-name {
+	margin: 0px;
+	color: #F05F40;	
+}
+
+.register-form {
+	margin: 0 auto;
+	max-width: 530px;
+}
+
+.sample-img {
+    position: relative;
+    z-index: 1;
+    background-color: black;
+    overflow: hidden;
+}
+
+.no-margin {
+	margin: 0;
+}
+
+.sample-img .bg {
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+   opacity: .5;
+    width: 100%;
+    height: 100%;
+}
+
+.sample-img .bg img{
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    min-width: 100%;
+    /* height: 100%; */
+}
+
+.brew-logo {
+	position: relative;
+}
+
+.jumbotron h1{
+	text-shadow: 3px 3px #010101;
+	text-align: center;
+}
+
+.brew-logo img {
+	text-align: center;
+	width: 216px;
+	border: solid;
+	border-color:white;
+}
+
+.fake-jumbotron {
+	background-color: #f05f40;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	text-align: center;
+	border-bottom: solid;
+	border-color: #7b2e1e;
+}
+
+.icon-style {
+	margin-right: 5px;
+}
+
+.brewery-description {
+	text-align: center;
+	padding: 30px;
+	border-radius: 5px;
+}
+
+.description-container {
+	background-color: rgba(0,0,0,.5);
+}
+
+.beer-container {
+ background-image: url('../img/carousel-bg.jpg');
+ height: 100vh;
+ max-width: 100%;
+}
+ 
+.centered-edit-info {
+	text-align: center;
+}
+
+#grad1 {
+    height: 300px;
+    background: -webkit-linear-gradient(rgba(18,25,28,1), rgba(18,25,28,0)); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(rgba(18,25,28,1), rgba(18,25,28,0)); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(rgba(18,25,28,1), rgba(18,25,28,0)); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(rgba(18,25,28,1), rgba(18,25,28,0)); /* Standard syntax (must be last) */
+}
+
+.beer-display {
+	background-color: rgba(0,0,0,.5);
+}
+.beer-display img{
+	margin: 0 auto;
+	display: inline;
+}
+
+.slick-img {
+	min-width: 120px;
+}
+
+.slick-prev{
+	position: absolute;
+	bottom: 0;
+	left: 40%;
+	z-index: 10;
+	color: white;
+  background-color: #F05F40;
+  border-color: #F05F40;
+  -webkit-transition: all 0.35s;
+  -moz-transition: all 0.35s;
+  transition: all 0.35s;
+  margin-bottom: 10px;
+}
+
+.slick-next{
+	position: absolute;
+	bottom: 0;
+	right: 40%;
+	color: white;
+  background-color: #F05F40;
+  border-color: #F05F40;
+  -webkit-transition: all 0.35s;
+  -moz-transition: all 0.35s;
+  transition: all 0.35s;
+  margin-bottom: 10px;
+}
+
+.feature-img-half {
+  position: relative;
+  width: 100%;
+  /* min-height: auto; */
+  min-height: 60vh;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  background-position: center;
+  background-image: url('../img/carousel-bg.jpg');
+  text-align: center;
+  color: white;
+}
+
+.beer-list-heading {
+	padding-top: 13vh;
+	margin: 0;
+}
+
+.rating-container {
+	border-radius: 3px;
+	background-color: rgba(237, 237, 237, .5);
+ }
+
+.rating-container img {
+	max-width: 7%;
+	min-width: 15px;
+	padding-bottom: 50px;
+}
+
+
+.edit-button {
+	margin-top: 10px;
+}
+
+.fileContainer {
+	overflow: hidden;
+	position: relative;
+	color: #233237;
+}
+
+.fileContainer [type=file] {
+	cursor: pointer;
+	display: block;
+	font-size: 1em;
+	filter: alpha(opacity=0);
+	min-height: 100%;
+	min-width: 100%;
+	opacity: 0;
+	position: absolute;
+	right: 0;
+	text-align: right;
+	top: 0;
+	
+}
+
+textarea {
+	z-index: 100000;
+}
+
